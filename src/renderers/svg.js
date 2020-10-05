@@ -90,7 +90,7 @@ class SVGRenderer{
 			var x, y;
 
 			textElem.setAttribute("style",
-				"font:" + options.fontOptions + " " + options.fontSize + "px " + options.font
+				`font-weight: ${options.fontOptions}; font-size: ${options.fontSize}; font-family: ${options.font};`
 			);
 
 			if(options.textPosition == "top"){
